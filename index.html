@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flickr Client</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="flickrclient.js"></script>
+    <style>
+        h1, h4
+        {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div data-role="page"> 
+        <div data-role="header"><h1>Flickr Client</h1></div> 
+        <div data-role="content">
+            <label for="txtSearch">Keyword</label>
+            <input type="text" id="txtSearch"/>
+            <button id="btnSubmit">Submit</button>
+            <div id="result"></div>
+        </div> 
+        <div data-role="footer"><h4>&copy;2018 LearnToProgram, LLC.</h4></div> 
+    </div> 
+</body>   
+</html>
